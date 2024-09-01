@@ -53,7 +53,7 @@ const UserTable = () => {
     try {
       // Perform update operation (e.g., API call)
       const response = await fetch(
-        `https://two4-mintep1-app-dev.onrender.com/api/v1/users/${updatedUser.id}`,
+        `https://quiz-app-49jp.onrender.com/api/v1/users/${updatedUser.id}`,
         {
           method: "PUT",
           headers: {

@@ -35,7 +35,7 @@ const RegisterForm = () => {
 
   const { mutate: postRegisterMutation, data: registerData } = useMutation({
     mutationFn: (user) =>
-      fetch("https://two4-mintep1-app-dev.onrender.com/api/v1/auth/register", {
+      fetch("https://quiz-app-49jp.onrender.com/api/v1/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -7,7 +7,7 @@ const DeleteButton = ({ item }) => {
     async () => {
       (item) =>
         fetch(
-          `https://two4-mintep1-app-dev.onrender.com/api/v1/${item.type}/${item.id}`,
+          `https://quiz-app-49jp.onrender.com/${item.type}/${item.id}`,
           {
             method: DELETE,
             headers: {

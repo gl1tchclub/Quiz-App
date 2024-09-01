@@ -40,7 +40,7 @@ const LoginForm = () => {
 
   const { mutate: postLoginMutation, data: loginData } = useMutation({
     mutationFn: (user) =>
-      fetch("https://two4-mintep1-app-dev.onrender.com/api/v1/auth/login", {
+      fetch("https://quiz-app-49jp.onrender.com/api/v1/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

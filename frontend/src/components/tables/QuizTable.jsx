@@ -43,7 +43,7 @@ const QuizTable = (props) => {
     const fetchQuiz = async () => {
       try {
         const response = await fetch(
-          `https://two4-mintep1-app-dev.onrender.com/api/v1/public/quiz/${props.quizId}`,
+          `https://quiz-app-49jp.onrender.com/api/v1/public/quiz/${props.quizId}`,
           {
             method: "GET",
             headers: {

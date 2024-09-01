@@ -44,7 +44,7 @@ const CreateQuiz = (props) => {
         Object.entries(quiz).filter(([_, value]) => value !== '')
       );
 
-      return fetch("https://two4-mintep1-app-dev.onrender.com/api/v1/quizzes/create", {
+      return fetch("https://quiz-app-49jp.onrender.com/api/v1/quizzes/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
