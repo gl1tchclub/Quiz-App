@@ -1,6 +1,6 @@
 # Mintep1 Quiz App
 
-**Home Page for API:** https://two4-mintep1-app-dev.onrender.com/api/v1/
+**Home Page for API:** https://quiz-app-49jp.onrender.com/api/v1/
 
 [Documentation](https://documenter.getpostman.com/view/28760893/2sA3duGt59)
 
