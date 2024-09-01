@@ -50,7 +50,7 @@ app.use(urlencoded({ extended: false }));
 app.use(json());
 // CORS Config
 const corsOptions = {
-  origin: "https://quiz-app-sage-five.vercel.app/",
+  origin: "https://quiz-app-sage-five.vercel.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
