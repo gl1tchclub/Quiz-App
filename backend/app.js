@@ -6,7 +6,6 @@ import cors from "cors";
 import cacheRouteMiddleware from "./middleware/cacheRoute.js";
 import compression from "compression";
 
-// Import the index routes module
 import authRouteMiddleware from "./middleware/authRoute.js";
 import authV1Routes from "./routes/v1/auth.js";
 import indexV1Routes from "./routes/v1/index.js";
@@ -14,7 +13,6 @@ import userV1Routes from "./routes/v1/users/user.js";
 import quizV1Routes from "./routes/v1/quiz.js";
 import publicQuizV1Routes from "./routes/v1/publicQuiz.js";
 import seedV1Routes from "./routes/v1/users/seed.js";
-//import rest of routes here
 
 const app = express();
 
@@ -96,5 +94,4 @@ app.listen(3000, () => {
   console.log("Server is listening on port 3000.");
 });
 
-// Export the Express application. Other modules may use it. For example, API testing
 export default app;
