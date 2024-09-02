@@ -14,7 +14,7 @@ Playing a quiz currently unavailable.
 Unauth User:
 - View quizzes
 - Create account
-- 
+
 Basic User:
 - View quizzes
 - Login/logout
