@@ -39,7 +39,7 @@ import { Link } from "react-router-dom";
  * @returns {JSX.Element} AllQuizzesTable component JSX
  */
 const AllQuizzesTable = () => {
-  const baseURL = "https://quiz-app-49jp.onrender.com/";
+  const baseURL = "https://quiz-app-49jp.onrender.com/api/v1/";
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
   let user;
