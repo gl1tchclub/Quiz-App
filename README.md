@@ -4,7 +4,7 @@ Quiz App! An app that allows for user creation, user authorization/access, quiz 
 
 Made using React, Node, RESTful API, OpenTDB, Express, JWT, Tailwind CSS, and Shadcn components!
 
-[Website](quiz-app-sage-five.vercel.app)
+quiz-app-sage-five.vercel.app
 
 ### Functionality
 
